@@ -1,0 +1,160 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+/*Hero*/
+/*Acts*/
+/*Guide*/
+body {
+    margin: 0px;
+    text-align: center;
+    
+    font-family: "Merriweather", serif; 
+}
+
+/*Hero img size highlight*/
+
+.Hero{
+     background-image: url("images/hjg.jpg");
+     background-size: cover;
+     background-position: 1px;
+     
+     padding: 10px 20px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     height: 300px;
+     
+   
+    }
+
+
+#highlight{
+    background: #ffe5d9;
+    padding: 12px 10px;
+    border-radius: 10px;
+    
+}
+
+#hg{
+    background: #ffe5d9;
+    padding: 12px 5px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+/*Acts flex size border background*/
+.flex{
+        display: flex;
+        justify-content: space-around;
+}
+
+.Acts{
+    background: #F1FAEE;
+   
+    padding: 20px;
+    transition: 1s;
+    color: #03045e;
+    height: 350px;
+  
+}
+
+.Acts:hover{
+    background-color: #90e0ef;
+    border-radius: 15%;
+    border: 2px solid #003554;
+}
+
+
+.size {
+    width: 120px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #a68a64;
+   
+    
+}
+
+#fsize{
+   
+    
+    font-weight: 600;
+    line-height: 18.4px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding: 10px;
+    color: #468faf;
+    text-shadow: 0px 0px 1px;
+
+}
+
+#sz-h4{
+    font-size: 14px;
+}
+
+#shrt{
+    font-size: 13px;
+     font-family: "Nunito", sans-serif;
+     color: black;
+}
+
+#des{
+    color: #01497c;
+    font-weight: 500;
+    font-style: oblique;
+}
+
+h4{
+    font-size: 11px;
+    font-weight: 900;
+    color: #01497c;
+}
+
+/*Guide card*/
+.Guide{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #b7e4c7;
+   
+     width: 430px;
+    height: 250px;
+    margin: 15px auto;
+    border-radius: 20px;
+    color: #adb5bd;
+    transition: 1s;
+    
+}
+.Guide:hover{
+    background-color: #468faf;
+}
+
+#pp{
+    width: 180px;
+    height: 200px;
+    border-radius: 45px;
+    padding: 25px 20px;
+}
+
+#txt{
+    padding: 18px;
+    color: #212f45;
+    font-size: 15px;
+    width: 170px;
+    
+}
+
+#my{
+    width:180px; 
+    
+}
+
+#name{
+    color: #007200;
+}
